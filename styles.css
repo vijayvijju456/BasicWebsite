@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(https://cdn.pixabay.com/photo/2022/02/11/21/41/cheese-7008088__340.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+    
+}
+.wrapper .center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+.center-text h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center-text h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center-text .buttons{
+    margin: 35px 280px;
+
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffb3b3;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
